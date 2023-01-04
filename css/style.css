@@ -48,7 +48,7 @@ h2{
 }
 
 .sticky-top{
-   top: -1!important;
+   top: -1px!important;
 }
 
 /* End Head */
