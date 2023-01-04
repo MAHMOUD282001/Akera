@@ -46,6 +46,11 @@ h2{
 .head .right p{
   font-size: .9rem;
 }
+
+.sticky-top{
+   top: -1!important;
+}
+
 /* End Head */
 
 
