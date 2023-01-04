@@ -1,0 +1,739 @@
+:root {
+  --main-color: #f05a66;
+  --hover-color: #ef3444
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a{
+  color: #282828!important;
+  transition: all .5s ease-in-out!important;
+}
+
+a:hover{
+  color: var(--main-color)!important;
+}
+
+h2{
+  font-size: 4vw!important;
+}
+
+.button{
+  padding: 10px 20px;
+  border: none;
+}
+
+
+/* Start Head */
+.head{
+  background-color: var(--main-color);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.head .dropdown button, .head .dropdown .dropdown-menu li{
+  font-size: .75rem!important;
+}
+
+.head .left h6{
+  font-size: .75rem;
+  margin: 0!important;
+}
+
+.head .right p{
+  font-size: .9rem;
+}
+/* End Head */
+
+
+/* Start Navbar */
+@media(max-width:576px){
+  .nav ul:nth-of-type(1) svg{
+    font-size: 12px;
+  }
+}
+/* End Navbar */
+
+
+
+/* Start Slider */
+
+.home .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.home .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.home .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home .swiper-slide > div{
+  color: #fff;
+  transition: all .5s ease-in-out;
+  animation: slide-up .5s;
+}
+
+.home .swiper-slide > div p{
+  letter-spacing: 10px;
+}
+
+
+.home .swiper-slide .text-active{
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: all 1000ms ease-in-out;
+}
+
+.home .swiper-slide-active .text-active{
+  top: 30%;
+  opacity: 1;
+}
+
+.home .swiper-slide button{
+  background-color: var(--main-color)!important;
+  border: none;
+  transition: all .5s ease-in-out;
+}
+
+.home .swiper-slide button:hover{
+  background-color: var(--hover-color)!important;
+  
+}
+
+
+
+@media(max-width:576px){
+  .swiper-slide{
+    height: 50vh!important;
+  }
+}
+
+/* End Slider */
+
+/* Start Info */
+
+.card-item{
+  overflow: hidden!important;
+}
+
+.card-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 2s ease-in-out!important;
+}
+
+.card-item button{
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  background-color: rgba(255,255,255,0.8)!important;
+  color: #111 !important;
+  border: none;
+  transition: all .5s ease-in-out!important;
+}
+
+.card-item button:hover{
+  color: #fff!important;
+  background-color: var(--main-color)!important;
+}
+
+.card-item:hover img {
+  transform: scale(1.2);
+}
+
+/* End Info */
+
+/* Start Products */
+
+.products .filter li{
+  cursor: pointer;
+}
+
+.products .filter li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background: var(--main-color);
+  transition: width .3s;
+}
+
+.products .filter li:hover::after {
+  width: 100%;
+}
+
+.products .filter li.active::after{
+  width: 100%;
+}
+
+.products .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products .swiper-slide {
+  text-align: center;
+  height: 600px !important;
+  font-size: 18px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.products .swiper-slide img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.products .swiper-slide:nth-of-type(1):hover img{
+  content: url("../imgs/maecenas-non-laoreet (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(2):hover img{
+  content: url("../imgs/fusce-et-semper (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(3):hover img{
+  content: url("../imgs/praesent-in-ante (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(4):hover img{
+  content: url("../imgs/nunc-quis-gravida (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(5):hover img{
+  content: url("../imgs/sed-feugiat-varius (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(6):hover img{
+  content: url("../imgs/donec-congue-vesti (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(7):hover img{
+  content: url("../imgs/semper-in-tincidunt (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(8):hover img{
+  content: url("../imgs/morbi-facilisis-quis (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(9):hover img{
+  content: url("../imgs/pellsque-tortor-massa (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(10):hover img{
+  content: url("../imgs/nulla-imperdiet-purus (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(11):hover img{
+  content: url("../imgs/vesti-phara-posuere (1).jpg");
+}
+
+.products .swiper-slide:nth-of-type(2):hover img{
+  content: url("../imgs/sed-feugiat-varius (1).jpg");
+}
+
+
+.products .swiper-slide .icons{
+  top: 30px;
+  right: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: none;
+  cursor: pointer;
+}
+
+.products .swiper-slide .select{
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background-color: var(--hover-color);
+  opacity: .7;
+  cursor: pointer!important;
+  font-size: 14px;
+  line-height: 40px;
+  display: none;
+}
+
+.products .swiper-slide .icons .heart{
+  padding-bottom: 10px;
+}
+
+.products .swiper-slide .icons .heart:hover.heart:hover::before,
+.products .swiper-slide .icons .search:hover::before{
+  content: '';
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent  transparent  transparent #000;
+  height: 0;
+  width: 0;
+  position: absolute!important;
+  left: -35px;
+  top: 0px;
+}
+
+.products .swiper-slide .icons .heart span,
+.products .swiper-slide .icons .search span{
+    right: 55px;
+    top: -7px;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    display: none;
+    font-size: 14px;
+}
+
+.products .swiper-slide .icons .heart:hover span,
+.products .swiper-slide .icons .search:hover span{
+  display: block;
+}
+
+
+
+
+.products .swiper-slide:hover .icons {
+  display: block;
+}
+
+.products .swiper-slide:hover .select {
+  display: block;
+}
+
+
+.products .swiper-slide.hide{
+  display: none;
+}
+
+/* End Products */
+
+/* Start Review */
+.review{
+  position: relative;
+  background: url(../imgs/demo2-bg_testi.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+}
+
+.review .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .6;
+}
+
+.review h3{
+  color: #fff !important;
+}
+
+
+.review .swiper {
+  width: 70%;
+  height: 50%;
+  margin-top: 30px;
+  color: #fff;  
+}
+
+.review .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 100%!important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.review .swiper-slide div:nth-of-type(1){
+  width: 70%;
+  font-size: 15px!important;
+}
+
+.review .swiper-slide div:nth-of-type(2) img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+.review .swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width:767px){
+  .review .swiper {
+    width: 100%;
+  }
+}
+
+/* End Review */
+
+
+
+
+
+
+/* Start Best Sellers */
+
+.best-sellers .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.best-sellers .swiper-slide {
+  text-align: center;
+  height: 600px !important;
+  font-size: 18px;
+  background: #fff;
+  cursor: pointer;
+  
+}
+
+.best-sellers .swiper-slide img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.best-sellers .swiper-slide:nth-of-type(1):hover img{
+  content: url("../imgs/maecenas-non-laoreet (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(2):hover img{
+  content: url("../imgs/fusce-et-semper (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(3):hover img{
+  content: url("../imgs/praesent-in-ante (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(4):hover img{
+  content: url("../imgs/nunc-quis-gravida (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(5):hover img{
+  content: url("../imgs/sed-feugiat-varius (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(6):hover img{
+  content: url("../imgs/donec-congue-vesti (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(7):hover img{
+  content: url("../imgs/semper-in-tincidunt (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(8):hover img{
+  content: url("../imgs/morbi-facilisis-quis (1).jpg");
+}
+
+.best-sellers .swiper-slide:nth-of-type(9):hover img{
+  content: url("../imgs/pellsque-tortor-massa (1).jpg");
+}
+
+
+
+.best-sellers .swiper-slide .icons{
+  top: 30px;
+  right: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: none;
+  cursor: pointer;
+}
+
+.best-sellers .swiper-slide .select{
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background-color: var(--hover-color);
+  opacity: .7;
+  cursor: pointer!important;
+  font-size: 14px;
+  line-height: 40px;
+  display: none;
+}
+
+.best-sellers .swiper-slide .icons .heart{
+  padding-bottom: 10px;
+}
+
+.best-sellers .swiper-slide .icons .heart:hover.heart:hover::before,
+.best-sellers .swiper-slide .icons .search:hover::before{
+  content: '';
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent  transparent  transparent #000;
+  height: 0;
+  width: 0;
+  position: absolute!important;
+  left: -35px;
+  top: 0px;
+}
+
+.best-sellers .swiper-slide .icons .heart span,
+.best-sellers .swiper-slide .icons .search span{
+    right: 55px;
+    top: -7px;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    display: none;
+    font-size: 14px;
+}
+
+.best-sellers .swiper-slide .icons .heart:hover span,
+.best-sellers .swiper-slide .icons .search:hover span{
+  display: block;
+}
+
+
+
+
+.best-sellers .swiper-slide:hover .icons {
+  display: block;
+}
+
+.best-sellers .swiper-slide:hover .select {
+  display: block;
+}
+
+
+/* End Best Sellers */
+
+/* Start Stylish */
+.stylish{
+  background: url(../imgs/demo2-bg2.jpg);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stylish button{
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 16px;
+}
+/* End Stylish */
+
+/* Start Blog */
+
+.blog .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.blog .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.blog .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .5s ease-in-out!important;
+  
+}
+
+.blog .swiper-slide .card{
+  overflow: hidden!important;
+}
+
+.blog .swiper-slide:hover img{
+  transform: scale(1.1);
+}
+
+.blog a{
+  text-decoration: none;
+  color: var(--main-color)!important;
+  cursor: pointer!important;
+}
+
+.blog .card-body p:nth-of-type(1){
+  font-size: 1rem!important;
+  transition: all .5s ease-in-out;
+}
+
+.blog .card-body p:nth-of-type(2){
+  font-size: .9rem!important;
+}
+
+.blog .card-body p:nth-of-type(1):hover{
+  color:rgba(0,0,0,.5)!important;
+}
+
+.blog .card .date{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 70px;
+  background-color: var(--hover-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* End Blog */
+
+/* Start Newsletter */
+
+.newsletter .row{
+  border-style: solid;
+  border-width: 7px 7px 7px 7px;
+  border-color: #f2f2f2;
+  padding: 30px 85px 30px 85px;
+  background: url(../imgs/demo2-bg_newsletter.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.newsletter .input input{
+  outline: none;
+  width: 60%!important;
+  margin-right: auto!important;
+  height: 40px;
+}
+
+.newsletter .input button{
+  width: 25%!important;
+  outline: none;
+  border: none;
+  height: 40px;
+  background-color: var(--hover-color);
+  color: #fff;
+  font-size: 14px;
+}
+
+@media(max-width:768px) {
+  .newsletter .row{
+    padding: 15px 50px 15px 50px;
+  }
+}
+
+@media(max-width:576px) {
+  .newsletter .input input{
+    width: 100%!important;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter .input button{
+    width: 100%!important;
+  }
+  
+  .newsletter .row{
+    padding: 10px 5px;
+    text-align: center!important;
+  }
+}
+
+/* End Newsletter */
+
+/* Start Footer */
+footer{
+  background-color: #000;
+  /* height: 500px; */
+  color: #fff;
+}
+
+footer .contact p{
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer .information p, footer .my-account p{
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin-bottom: .8rem;
+}
+
+footer .information p:hover, footer .my-account p:hover{
+  color: #fff!important;
+}
+
+footer .footer-last li{
+  font-size: 14px;
+}
+
+/* End Footer */
+
+
+

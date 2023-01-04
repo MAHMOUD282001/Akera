@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akera</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  </head>
+  <body>
+  
+  
+<!-- Start Head -->
+  <section class="head d-none d-lg-flex">
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="left d-flex align-items-center">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./imgs/1.jpg" alt="First Img"> English
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="./imgs/1.jpg" alt="First Img"> English</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./imgs/2.jpg" alt="Second Img"> Spain</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./imgs/3.jpg" alt="Thaird Img"> France</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./imgs/4.jpg" alt="Fourth Img"> Italy</a></li>
+            </ul>
+          </div>
+          
+          <div class="dropdown">
+            <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+               $USD
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">$USD</a></li>
+              <li><a class="dropdown-item" href="#">$EUR</a></li>
+            </ul>
+          </div>
+          
+          <h6 class="text-white">FREE SHIPPING FOR ALL ORDERS OF $150</h6>
+        </div>
+        
+        
+        <div class="right d-flex align-items-center justify-content-between w-25">
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f text-white pe-2"></i>
+            <i class="fa-brands fa-google-plus-g text-white pe-2"></i>
+            <i class="fa-brands fa-twitter text-white pe-2"></i>
+            <i class="fa-brands fa-instagram text-white pe-2"></i>
+          </div>
+          
+          <div class="contact-faq d-flex justify-content-between text-white">
+            <p class="mb-0 pe-3"><a class="text-decoration-none text-white" href="#">Contact Us</a></p>
+            <p class="mb-0"><a class="text-decoration-none text-white" href="#">Faq</a></p>
+          </div>
+        </div>
+        
+        
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Head -->
+
+<!-- Start Nav -->
+  <section class="nav mt-3 bg-white sticky-top">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <a class="navbar-brand ms-lg-auto me-lg-auto" href="#"><img src="./imgs/demo2-logo.png" alt=""></a>
+        
+        
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset ms-auto mt-3 me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          
+          <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0 navbar-nav-scroll text-center">
+            <li class="nav-item pe-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">Elemenator Live</a>
+            </li>
+            
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">Buy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
+        <ul class="list-unstyled mb-0 d-flex align-items-center justify-content-between">
+          <li class="nav-item pe-3 d-none d-lg-block">
+            <a class="nav-link" href="#">My Account</a>
+          </li>
+          
+          <li class="nav-item pe-3">
+            <a href="#"><i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i></a>
+          </li>
+          
+          <li class="nav-item pe-3">
+            <a href="#"><i class="fa-solid fa-heart fa-lg"></i></a>
+          </li>
+          
+          <li class="nav-item pe-3">
+            <a class="text-decoration-none" href="#">
+            <i class="fa-solid fa-cart-shopping fa-lg position-relative"></i>
+            <span>0</span>
+            0.00</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </section>
+<!-- End Nav -->
+
+<!-- Start Home -->
+  <section class="home">
+    <div class="container-fluid container-lg">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide position-relative h-auto">
+            <img src="./imgs/demo2-slider1.jpg" alt="">
+            <div class="position-absolute text-active w-75">
+              <p>Collection 2021</p>
+              <h2>Get Up To 50% Off Select</h2>
+              <h2>Select Style</h2>
+              <button class="button mt-2 text-white">Shop Now</button>
+            </div>
+          </div>
+          
+          
+          <div class="swiper-slide position-relative">
+            <img src="./imgs/demo2-slider2.jpg" alt="">
+            <div class="position-absolute text-active w-75">
+              <p>Collection 2021</p>
+              <h2>Get Up To 50% Off Select</h2>
+              <h2>Select Style</h2>
+              <button class="button mt-2 text-white">Shop Now</button>
+            </div>
+          </div>
+          
+          <div class="swiper-slide position-relative">
+            <img src="./imgs/demo2-slider3.jpg" alt="">
+            <div class="position-absolute text-active w-75">
+              <p>Collection 2021</p>
+              <h2>Get Up To 50% Off Select</h2>
+              <h2>Select Style</h2>
+              <button class="button mt-2 text-white">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next text-white"></div>
+        <div class="swiper-button-prev text-white"></div>
+      </div>
+    </div>
+  </section>
+<!-- End Home -->
+
+
+<!-- Start info -->
+<section class="info mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-3 position-relative card-item">
+        <img src="./imgs/demo2-MEN.jpg" class="" alt="">
+        <button class="button position-absolute">Men</button>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-3 position-relative card-item">
+        <img src="./imgs/demo2-WOMEN.jpg" class="" alt="">
+        <button class="button position-absolute">Women</button>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-3 position-relative card-item">
+        <img src="./imgs/demo2-ACCESSORIES.jpg" class="" alt="">
+        <button class="button position-absolute">Accessories</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End info -->
+
+<!-- Start Products -->
+<div class="products mt-5">
+  <div class="container">
+    <div class="title text-center">
+      <p class="text-black-50">AKIRA COLLECTIONS</p>
+      <h3>FEATURED PRODUCTS</h3>
+      <p class="text-black-50">Nullam gravida, dolor ac ultrices lobortis, mi dolor justo.</p>
+    </div>
+    
+    <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5 filter">
+      <li class="active me-4" data-item="all">All</li>
+      <li class="me-4" data-item="men">Men</li>
+      <li class="me-4" data-item="women">Women</li>
+      <li class="me-4" data-item="kids">Kids</li>
+    </ul>
+    
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-cat="men">
+          <img src="./imgs/maecenas-non-laoreet.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+          
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="men">
+          <img src="./imgs/fusce-et-semper.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="men">
+          <img src="./imgs/praesent-in-ante.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons" data-cat="men">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="women">
+          <img src="./imgs/nunc-quis-gravida.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="women">
+          <img src="./imgs/sed-feugiat-varius.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="women">
+          <img src="./imgs/donec-congue-vesti.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="women">
+          <img src="./imgs/semper-in-tincidunt.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="kids">
+          <img src="./imgs/morbi-facilisis-quis.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide" data-cat="kids">
+          <img src="./imgs/pellsque-tortor-massa.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        <div class="swiper-slide" data-cat="kids">
+          <img src="./imgs/nulla-imperdiet-purus.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        <div class="swiper-slide" data-cat="kids">
+          <img src="./imgs/vesti-phara-posuere.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        <div class="swiper-slide" data-cat="kids">
+          <img src="./imgs/sed-feugiat-varius.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    
+  </div>
+</div>
+<!-- End Products -->
+
+<!-- Start reviews -->
+
+<section class="review">
+  <div class="overlay"></div>
+  
+  <div>
+    <h3 class="text-white text-center pt-5">CUSTOMERS REVIEWS</h3>
+    <i class="fa-sharp fa-solid fa-quote-right fs-1 text-white text-center d-block ms-auto me-auto"></i>
+  </div>
+  
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide fw-light justify-content-start justify-content-sm-between">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum placeat quas facere impedit vitae quidem. Omnis ratione distinctio quaerat nobis odio nihil excepturi quam.</div>
+        <div class="character d-flex mt-3 mt-sm-0 h-auto">
+          <img src="./imgs/demo2-testi1.jpg" alt="">
+          <div>
+            <h5>Jane Doe</h5>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="swiper-slide fw-light justify-content-start justify-content-sm-between">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum placeat quas facere impedit vitae quidem. Omnis ratione distinctio quaerat nobis odio nihil excepturi quam.</div>
+        <div class="character d-flex mt-3 mt-sm-0 h-auto">
+          <img src="./imgs/demo2-testi1.jpg" alt="">
+          <div>
+            <h5>Jane Doe</h5>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="swiper-slide fw-light justify-content-start justify-content-sm-between">
+      
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum placeat quas facere impedit vitae quidem. Omnis ratione distinctio quaerat nobis odio nihil excepturi quam.</div>
+        <div class="character d-flex mt-3 mt-sm-0 h-auto">
+          <img src="./imgs/demo2-testi1.jpg" alt="">
+          <div>
+            <h5>Jane Doe</h5>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="swiper-slide fw-light justify-content-start justify-content-sm-between">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum placeat quas facere impedit vitae quidem. Omnis ratione distinctio quaerat nobis odio nihil excepturi quam.</div>
+        <div class="character d-flex d-flex mt-3 mt-sm-0 h-auto">
+          <img src="./imgs/demo2-testi1.jpg" alt="">
+          <div>
+            <h5>Jane Doe</h5>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>  
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+</section>
+
+<!-- End reviews -->
+
+
+
+
+
+
+<!-- Start Best Sellers -->
+<section class="best-sellers mt-5">
+  <div class="container">
+    <div class="title text-center">
+      <p class="text-black-50">AKIRA COLLECTIONS</p>
+      <h3>OUR BESTSELLERS</h3>
+      <p class="text-black-50">Nullam gravida, dolor ac ultrices lobortis, mi dolor justo.</p>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgs/maecenas-non-laoreet.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+          
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/fusce-et-semper.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/praesent-in-ante.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/nunc-quis-gravida.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/sed-feugiat-varius.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/donec-congue-vesti.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/semper-in-tincidunt.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/morbi-facilisis-quis.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+        
+        
+        <div class="swiper-slide">
+          <img src="./imgs/pellsque-tortor-massa.jpg" class="position-relative" alt="">
+          <div class="position-absolute icons">
+            <div class="heart position-relative">
+              <i class="fa-solid fa-heart fa-lg"></i>
+              <span class="position-absolute">Love</span>
+            </div>
+            <div class="search position-relative">
+              <i class="fa-sharp fa-solid fa-lg fa-magnifying-glass"></i>
+              <span class="position-absolute">Search</span>
+            </div>
+          </div>
+          
+          <div class="position-absolute select"><i class="fa-solid fa-cart-shopping"></i>Select Options</div>
+          
+          
+          <p class="text-center text-black fs-6 mt-4 fw-light">maecenas-non-laoreet</p>
+          <p class="text-center text-black-50 fs-6 mt-2">Shop</p>
+          
+          <div class="font-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <p class="text-center text-black fs-6 mt-2 fw-light">$129</p>
+
+        </div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    
+  </div>
+</section>
+<!-- End Products -->
+
+<!-- Start Stylish -->
+<section class="stylish">
+  <div class="container">
+    <div class="text-center text-md-start">
+      <p class="text-black-50">WE MAKE IT EASY TO EXPRIENCE CREATIVITY</p>
+      <h3>STYLISH NEW DESIGN</h3>
+      <p class="text-black-50 fs-6" >Welcome to the home of women's fashion clothing & accessories at Italy</p>
+      
+      <button class="button">Shop Now!</button>
+    </div>
+  </div>
+</section>
+
+<!-- End Stylish -->
+
+<!-- Start Blog -->
+
+<section class="blog mt-5 mb-5">
+  <div class="container">
+    <div class="title text-center">
+      <p class="text-black-50">AKIRA COLLECTIONS</p>
+      <h3>OUR BESTSELLERS</h3>
+      <p class="text-black-50">Nullam gravida, dolor ac ultrices lobortis, mi dolor justo.</p>
+    </div>
+    
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/9-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/10-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/11-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/12-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/13-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/14-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/15-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top position-relative" src="./imgs/16-home_default.jpg" alt="Card image cap">
+            <div class="date">8 <br> May</div>
+            <div class="card-body">
+              <p>Some quick example</p>
+              <p class="card-text fs-6">Some quick example text to build on the card title</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+  </div>
+</section>
+
+
+<!-- End Blog -->
+
+<hr>
+
+
+<section class="newsletter mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-12 text-sm-center">
+        <h3>SIGN-UP NEWSLETTER</h3>
+        <P>Sign up for the latest news, offers and styles</P>
+      </div>
+      
+      <div class="col-lg-7 col-sm-12 text-sm-center">
+        <div class="input">
+          <input type="email" name="" id="">
+          <button>Subscribe</button>
+        </div>
+        
+        <div class="checkbox mt-4">
+          <input type="checkbox" name="" id="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, facilis.
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="mt-5 p-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-12">
+        <img src="./imgs/demo2-logo-w.png" alt="">
+        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum labore temporibus distinctio, autem alias eius unde rem neque exercitationem quod deleniti libero nisi fugit. Sed quaerat iusto nostrum deserunt?</p>
+      </div>
+      
+      <div class="col-xl-3 col-lg-6 mt-3 mt-xl-0 contact">
+          <h3 class="mb-3">Contact Us</h3>
+          <p class="text-white-50"><span class="text-white">Address:</span> 123 Fake Street, New York</p>
+          <p class="text-white-50"><span class="text-white">Phone:</span> (08) 8827 633354</p>
+          <p class="text-white-50"><span class="text-white">Fax:</span> (08) 8827 633354</p>
+          <p class="text-white-50"><span class="text-white">Mail:</span> contact@yoursite.com</p>
+          <p class="text-white-50"><span class="text-white">Openning:</span> 8:00 - 19:00, Mon - Sat</p>
+      </div>
+      
+      <div class="col-xl-2 col-lg-6 mt-3 mt-xl-0 information">
+        <h3 class="mb-3">Information</h3>
+        <p class="text-white-50">About us</p>
+        <p class="text-white-50">Legal Notice</p>
+        <p class="text-white-50">Addresses</p>
+        <p class="text-white-50">Order</p>
+        <p class="text-white-50">Payment</p>
+        <p class="text-white-50">Suppliers</p>
+      </div>
+      
+      <div class="col-xl-2 col-lg-6 mt-3 mt-xl-0 my-account">
+        <h3 class="mb-3">My Account</h3>
+        <p class="text-white-50">About us</p>
+        <p class="text-white-50">Legal Notice</p>
+        <p class="text-white-50">Addresses</p>
+        <p class="text-white-50">Order</p>
+        <p class="text-white-50">Payment</p>
+        <p class="text-white-50">Suppliers</p>
+      </div>
+      
+      <div class="col-xl-2 col-lg-6 mt-3 mt-xl-0 my-account">
+        <h3 class="mb-3">Company</h3>
+        <p class="text-white-50">About us</p>
+        <p class="text-white-50">Legal Notice</p>
+        <p class="text-white-50">Addresses</p>
+        <p class="text-white-50">Order</p>
+        <p class="text-white-50">Payment</p>
+        <p class="text-white-50">Suppliers</p>
+      </div>
+      
+    </div>
+    
+    <hr>
+    
+    <div class="footer-last">
+      <ul class="list-unstyled d-flex justify-content-center text-center">
+        <li class="me-3 me-md-5"><a href="" class="text-decoration-none text-white">RETURNS</a></li>
+        <li class="me-3 me-md-5"><a href="" class="text-decoration-none text-white">ORDERS HISTORY</a></li>
+        <li class="me-3 me-md-5"><a href="" class="text-decoration-none text-white">SITE MAP</a></li>
+        <li><a href="" class="text-decoration-none text-white">TESTIMONIAL</a></li>
+      </ul>
+      
+      <p class="text-center mt-4">Copyright © 2021 Akira Store. All Rights Reserved.</p>
+      
+      <img class="text-center ms-auto me-auto d-block" src="./imgs/demo2-payment.jpg" alt="">
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+  </body>
+</html>
